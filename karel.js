@@ -17,7 +17,7 @@ client.once('ready', () => {
     client.user.setActivity("with the editor");
 
     let generalChannel = client.channels.get("676396478591270925");
-    generalChannel.send("Are you fucking me");
+    generalChannel.send("Hi! :smiley:");
 })
 
 client.on('message', message => {
